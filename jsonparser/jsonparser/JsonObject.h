@@ -8,7 +8,7 @@
 
 class JsonObject : public JsonNode {
 private:
-	std::vector<std::pair<std::string, std::shared_ptr<JsonNode>>> members;
+	std::vector<std::pair<std::string, std::shared_ptr<JsonNode>>> values;
 public:
 	void add(const std::string& key, std::shared_ptr<JsonNode> value);
 	

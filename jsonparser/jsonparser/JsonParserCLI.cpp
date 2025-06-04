@@ -155,7 +155,6 @@ void JsonParserCLI::createValue(const std::string& pathStr, const std::string& v
 }
 
 
-
 void JsonParserCLI::help() {
 	std::cout << "Commands: open <file>, save, saveas <file>, print, validate, search <key>, create <path> <string>, set <path> <string>, delete <path>, help, exit\n";
 }
